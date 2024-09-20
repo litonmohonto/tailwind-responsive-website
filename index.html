@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <script src="https://kit.fontawesome.com/d1a3ecbaca.js" crossorigin="anonymous"></script>
+          <script src="https://cdn.tailwindcss.com"></script>
+          <title>Tailwind Responsive</title>
+</head>
+<body>
+          <header class="bg-gray-800 shadow-md shadow-slate-500 border-b-2 border-orange-300  fixed top-0 left-0 right-0 z-50 ">
+                    <nav class=" container mx-auto py-4">
+                              <div class="flex justify-between items-center text-white mx-6">
+                                        <div class="text-3xl font-semibold">
+                                                  <h1><span class="text-orange-500">LC</span> BURGER</h1>
+                                        </div>
+                                        <ul class=" md:flex  hidden space-x-8 ">
+                                                  <li class="text-gray-300 hover:bg-gray-700 hover:text-white font-medium py-2 px-4 rounded-md transform duration-700 "><a href="#">Home</a></li>
+                                                  <li class="text-gray-300 hover:bg-gray-700 hover:text-white font-medium py-2 px-4 rounded-md transform duration-700 "><a href="#">About</a></li>
+                                                  <li class="text-gray-300 hover:bg-gray-700 hover:text-white font-medium py-2 px-4 rounded-md transform duration-700 "><a href="#">Contact</a></li>
+                                                  <li class="text-gray-300 hover:bg-gray-700 hover:text-white font-medium py-2 px-4 rounded-md transform duration-700 "><a href="#">Services</a></li>
+                                                  
+                                        </ul>
+                                       
+                                       
+                                        <div id="menubtn" class="md:hidden">
+                                                  <button class="text-2xl  hover:text-gray-400 transform duration-700"><i class="fa-solid fa-bars-staggered"></i></button>
+                                        </div>
+                              </div>
+                    </nav>
+                    <!-- mobile menu buttn -->
+                    <ul id="mobilebtn" class="hidden text-center pb-6">
+                              <li class="text-gray-300 hover:bg-gray-700 hover:text-white font-medium py-2 px-4 rounded-md transform duration-700 "><a href="#">Home</a></li>
+                              <li class="text-gray-300 hover:bg-gray-700 hover:text-white font-medium py-2 px-4 rounded-md transform duration-700 "><a href="#">About</a></li>
+                              <li class="text-gray-300 hover:bg-gray-700 hover:text-white font-medium py-2 px-4 rounded-md transform duration-700 "><a href="#">Contact</a></li>
+                              <li class="text-gray-300 hover:bg-gray-700 hover:text-white font-medium py-2 px-4 rounded-md transform duration-700 "><a href="#">Services</a></li>
+                    </ul>
+          </header>
+          <div class="bg-gray-800 md:h-[100vh]">
+                    <div class="container mx-auto">
+                              <div class="md:flex justify-center items-center py-20 pb-8 ">
+          
+                                        <div class=" animate-pulse ">
+                                                  <img src="img/promo-1.png" >
+                                        </div>
+                                        <div class="ms-10 w-1/2 mt-6 ">
+                                                  <div>
+                                                            <h1 class="md:text-5xl text-3xl text-white font-bold">HAPPY TUMMY WITH
+                                                                      <br> TASTY BURGERS.</h1>
+                                                            <P class="text-white my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam pariatur asperiores maxime quas a nihil! Ea hic eius aut dolorem magnam nostrum alias. Saepe maiores ex voluptatem nam quae praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, asperiores?</P>
+                                                  </div>
+                                                  <div class="flex items-center space-x-8 text-white my-8">
+                                                            <div class="text-3xl text-center">
+                                                                      <span class="text-orange-200"><i class="fas fa-utensils"></i></span>
+                                                                      <h1>Delicious</h1>
+                                                            </div>
+                                                            <div class="text-3xl text-center">
+                                                                     <span class="text-orange-200"> <i class="fas fa-tint"></i></span>
+                                                                      <h1>Fresh</h1>
+                                                            </div>
+                                                            <div class="text-3xl text-center">
+                                                                   <span class="text-orange-200">   <i class="fab fa-envira"></i></span>
+                                                                      <h1>Orgaic</h1>
+                                                            </div>
+                                                  </div>
+                                                  <button class="bg-orange-300 px-6 py-2 rounded-md hover:opacity-80 transform duration-700">Learn More</button>
+                                        </div>
+                              </div>
+                    </div>
+          </div>
+          <main class="bg-gray-800">
+                    <section class="container mx-auto py-20">
+                              <div class="grid md:grid-cols-3 gap-4 animate-pulse">
+                                        <div class="flex relative bg-orange-300 py-6 rounded-lg overflow-hidden">
+                                                 <div class="w-1/3">
+                                                            <img src="img/burger-1.png" class="absolute -right-2 -left-2 w-28">
+                                                 </div>
+                                                  <div class="text-white">
+                                                            <h1 class="text-2xl font-bold">FOOD</h1>
+                                                            <p>Lorem ipsum dolor sit amet.</p>
+                                                            <a href="#" class="text-black">Buy Online</a>
+                                                  </div>
+                                        </div>
+                                        <div class="flex relative bg-neutral-500 py-6 rounded-lg overflow-hidden">
+                                                 <div class="w-1/3">
+                                                            <img src="img/beverage-2.png" class="absolute -right-2 -left-2 w-28">
+                                                 </div>
+                                                  <div class="text-white">
+                                                            <h1 class="text-2xl font-bold">BEVERAGE</h1>
+                                                            <p>Lorem ipsum dolor sit amet.</p>
+                                                            <a href="#" class="text-black">Buy Online</a>
+                                                  </div>
+                                        </div>
+                                        <div class="flex relative bg-red-800 py-6 rounded-lg overflow-hidden">
+                                                 <div class="w-1/3">
+                                                            <img src="img/snack-1.png" class="absolute -right-2 -left-2 w-28">
+                                                 </div>
+                                                  <div class="text-white">
+                                                            <h1 class="text-2xl font-bold">FOOD</h1>
+                                                            <p>Lorem ipsum dolor sit amet.</p>
+                                                            <a href="#" class="text-black">Buy Online</a>
+                                                  </div>
+                                        </div>
+                                     
+                              </div>
+                    </section>
+                    <section class="py-20">
+                              <div class="container mx-auto">
+                                        <div class="grid md:grid-cols-3 gap-5">
+
+                                                  <div class="bg-gray-700 shadow-md shadow-black  py-12 px-4 rounded-md">
+                                                            <div class="w-40 mx-auto hover:animate-bounce duration-700">
+                                                                      <img src="img/promo-1.png" alt="">
+                                                            </div>
+                                                            <div class="space-y-2">
+                                                                      <p class="text-orange-300">Payday Promo</p>
+                                                                      <h1 class="md:text-4xl text-white font-bold">GET A 10% DISCOUNT ON PAYADY WEEK</h1>
+                                                                      <p class="text-white my-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, mollitia!</p>
+                                                                      <a href="#" class="text-orange-400 inline-block"> BUY ONLINE</a>
+                                                            </div>
+                                                  </div>
+                                                  <div class="bg-gray-700 shadow-md shadow-black  py-12 px-4 rounded-md">
+                                                            <div class="w-40 mx-auto hover:animate-bounce duration-700">
+                                                                      <img src="img/promo-2.png" alt="">
+                                                            </div>
+                                                            <div class="space-y-2">
+                                                                      <p class="text-orange-300">Payday Promo</p>
+                                                                      <h1 class="md:text-4xl text-white font-bold">GET A 10% DISCOUNT ON PAYADY WEEK</h1>
+                                                                      <p class="text-white my-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, mollitia!</p>
+                                                                      <a href="#" class="text-orange-400 inline-block"> BUY ONLINE</a>
+                                                            </div>
+                                                  </div>
+                                                  <div class="bg-gray-700 shadow-md shadow-black  py-12 px-4 rounded-md">
+                                                            <div class="w-40 mx-auto hover:animate-bounce duration-700">
+                                                                      <img src="img/burger11.png" alt="">
+                                                            </div>
+                                                            <div class="space-y-2">
+                                                                      <p class="text-orange-300">Payday Promo</p>
+                                                                      <h1 class="md:text-4xl text-white font-bold">GET A 10% DISCOUNT ON PAYADY WEEK</h1>
+                                                                      <p class="text-white my-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, mollitia!</p>
+                                                                      <a href="#" class="text-orange-400 inline-block"> BUY ONLINE</a>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </section>
+                    <section>
+                              <!-- <div class="text-center">
+                                        <h1 class="text-3xl font-bold text-white">About Us</h1>
+                              </div> -->
+                              <div class="container mx-auto py-20">
+                                        <div class="grid md:grid-cols-2 gap-5 items-center mx-5">
+                                                  <div class="flex-1">
+                                                            <img src="img/about.jpg" class="rounded-lg">
+                                                  </div>
+                                                  <div class="flex-1">
+                                                            <h1 class="text-5xl text-white font-bold space-x-3">FIND FOOD AND DRINKS ALL-IN-ONE PLACE FOR YOUR BEST TASTE.</h1>
+                                                            <p class="text-white my-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, voluptatem. Blanditiis rerum veniam porro repellendus ab officiis aliquid sunt velit!</p>
+                                                            <ul class="grid grid-cols-2 text-purple-100 text-1xl">
+                                                                      <li> <i class="fas fa-check"></i>&nbsp; Best Price </li>
+                                                                      <li> <i class="fas fa-check"></i> &nbsp;Fresh Ingerdient</li>
+                                                                      <li> <i class="fas fa-check"></i>&nbsp;Best Service</li>
+                                                                      <li> <i class="fas fa-check"></i>&nbsp; Best Health Protocol</li>
+                                                            </ul>
+                                                            <a href="#" class="bg-orange-300 py-2 px-8 text-2xl rounded-md inline-block my-4 hover:opacity-80 transform duration-500"> Abou Us</a>
+                                                  </div>
+                                        </div>
+                              </div>
+                    </section>
+                    <section class="container mx-auto">
+                              <div class="text-center py-6">
+                                        <h1 class="text-3xl text-white font-bold">OUR BEST MENU</h1>
+                              </div>
+                              <div class="text-center px-5 py-8">
+                                        <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, voluptas? A veritatis numquam aliquam assumenda quibusdam! Nostrum, exercitationem! At, qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat optio minus explicabo repudiandae ipsum ratione harum reiciendis? Cum, laboriosam!</p>
+                                        <ul class="grid md:grid-cols-4  gap-5 mt-10 md:w-[800px] w-56 mx-auto">
+                                                  <li class="bg-orange-400 py-2 px-8 rounded-md text-white hover:opacity-80"><a href="#">All</a></li>
+                                                  <li id="menu" class="bg-red-400 py-2 px-8 rounded-md text-white hover:opacity-80" ><a href="#">Food</a></li>
+                                                  <li class="bg-purple-900 py-2 px-8 rounded-md text-white hover:opacity-80"><a href="#">Snack</a></li>
+                                                  <li class="bg-amber-800 py-2 px-8 rounded-md text-white hover:opacity-80"><a href="#">Beverage</a></li>
+                                        </ul>
+                              </div>
+                              <div class="grid md:grid-cols-3 gap-5 py-8">
+                                        <div id="box" class="bg-gray-700 rounded-md py-6 px-6 mx-5">
+                                                  <img src="img/snack-1.png" alt="">
+                                                  <h1 class="text-white font-bold text-2xl mt-4">FRENCH FRIEX</h1>
+                                                  <p class="text-purple-100">Lorem ipsum dolor sit amet.</p>
+                                                 <div class="flex justify-between items-center mt-4">
+                                                            <p class="text-white text-3xl"><span class="text-yellow-600 text-2xl">Price:</span> $50.00</p>
+                                                  <div class="text-orange-300">
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="far fa-star"></i></i></span>
+                                               </div>
+                                                 </div>
+                                        </div>
+                                        <div id="box" class="bg-gray-700 rounded-md py-6 px-6 mx-5">
+                                                  <img src="img/snack-2.png" alt="">
+                                                  <h1 class="text-white font-bold text-2xl mt-4">FRENCH FRIEX</h1>
+                                                  <p class="text-purple-100">Lorem ipsum dolor sit amet.</p>
+                                                 <div class="flex justify-between items-center mt-4">
+                                                            <p class="text-white text-3xl"><span class="text-yellow-600 text-2xl">Price:</span> $70.00</p>
+                                                  <div class="text-orange-300">
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="far fa-star"></i></i></span>
+                                               </div>
+                                                 </div>
+                                        </div>
+                                        <div id="box" class="bg-gray-700 rounded-md py-6 px-6 mx-5">
+                                                  <img src="img/snack-3.png" alt="">
+                                                  <h1 class="text-white font-bold text-2xl mt-4">FRENCH FRIEX</h1>
+                                                  <p class="text-purple-100">Lorem ipsum dolor sit amet.</p>
+                                                 <div class="flex justify-between items-center mt-4">
+                                                            <p class="text-white text-3xl"><span class="text-yellow-600 text-2xl">Price:</span> $50.00</p>
+                                                  <div class="text-orange-300">
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="far fa-star"></i></i></span>
+                                               </div>
+                                                 </div>
+                                        </div>
+                                        <div id="box" class="bg-gray-700 rounded-md py-6 px-6 mx-5">
+                                                  <img src="img/snack-4.png" alt="">
+                                                  <h1 class="text-white font-bold text-2xl mt-4">FRENCH FRIEX</h1>
+                                                  <p class="text-purple-100">Lorem ipsum dolor sit amet.</p>
+                                                 <div class="flex justify-between items-center mt-4">
+                                                            <p class="text-white text-3xl"><span class="text-yellow-600 text-2xl">Price:</span> $60.00</p>
+                                                  <div class="text-orange-300">
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="far fa-star"></i></i></span>
+                                               </div>
+                                                 </div>
+                                        </div>
+                                        <div id="box" class="bg-gray-700 rounded-md py-6 px-6 mx-5">
+                                                  <img src="img/snack-5.png" alt="">
+                                                  <h1 class="text-white font-bold text-2xl mt-4">FRENCH FRIEX</h1>
+                                                  <p class="text-purple-100">Lorem ipsum dolor sit amet.</p>
+                                                 <div class="flex justify-between items-center mt-4">
+                                                            <p class="text-white text-3xl"><span class="text-yellow-600 text-2xl">Price:</span> $40.00</p>
+                                                  <div class="text-orange-300">
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="far fa-star"></i></i></span>
+                                               </div>
+                                                 </div>
+                                        </div>
+                                        <div id="box" class="bg-gray-700 rounded-md py-6 px-6 mx-5">
+                                                  <img src="img/snack-6.png" alt="">
+                                                  <h1 class="text-white font-bold text-2xl mt-4">FRENCH FRIEX</h1>
+                                                  <p class="text-purple-100">Lorem ipsum dolor sit amet.</p>
+                                                 <div class="flex justify-between items-center mt-4">
+                                                            <p class="text-white text-3xl"><span class="text-yellow-600 text-2xl">Price:</span> $80.00</p>
+                                                  <div class="text-orange-300">
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="fas fa-star"></i></span>
+                                                            <span><i class="far fa-star"></i></i></span>
+                                               </div>
+                                                 </div>
+                                        </div>
+                              </div>
+                          
+                    </section>
+                    <section class="container mx-auto">
+                              <div class="bg-orange-300 text-center py-12 rounded-md ">
+                                        <div>
+                                                  <h1 class="text-4xl font-bold">GET EXCLUSIVE UPDATE</h1>
+                                                  <p class="text-purple-50 py-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa totam omnis voluptate eveniet incidunt odit et explicabo. Ipsa, maiores autem.</p>
+                                        </div>
+                                       <div>
+                                                  <input type="email" class="w-96 h-10 rounded-md outline-none py-2 px-4  " placeholder="Email address">
+                                                  <span class="text-3xl ms-2 "><i class="far fa-envelope"></i></span>
+                                       </div>
+                                        <div>
+                                                  <input type="password" class="w-96 h-10 rounded-md outline-none mt-5 py-2 px-4" placeholder="Password">
+                                                  <span class="text-3xl ms-2 "><i class="fas fa-unlock"></i></span>
+                                        </div>
+                                        <div>
+                                                 
+                                                  <input type="submit" value="Submite" class="bg-red-950  text-white transform duration-700 font-semibold text-2xl hover:opacity-60 rounded-md outline-none mt-5 py-2 px-8">
+                                        </div>
+                              </div>
+                    </section>
+          </main>
+          <footer class="bg-gray-800">
+                    <div class="container mx-auto py-20">
+
+                              <div class="grid md:grid-cols-4 gap-4 text-center py-10">
+                                        <div>
+                                                  <h1 class="text-3xl font-bold text-white">BUR<span class="text-yellow-400">GER</span></h1>
+                                                  <p class="text-purple-200 mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate tenetur dolores totam officiis exercitationem tempore soluta, non dolor autem sint.</p>
+                                        </div>
+                                        <div>
+                                                  <h1  class="text-2xl font-bold text-white">SUPPORT</h1>
+                                               <ul class="text-purple-200 space-y-3 mt-2">
+                                                  <li>DAQ'S</li>
+                                                  <li>Privscy Policy</li>
+                                                  <li>Term & Condition</li>
+                                                  <li>contact</li>
+                                               </ul>
+                                        </div>
+                                        <div >
+                                                  <h1 class="text-2xl font-bold text-white ">PHONE</h1>
+                                                  <div  class="flex justify-center mt-2">
+                                                            <span class="text-yellow-400"><i class="fas fa-phone-alt"></i></span><p class="text-white ms-2">01700000000</p></div>
+                                                  <h1 class="text-2xl font-bold text-white mt-4">EMAIL</h1>
+                                                <div class="flex justify-center ">
+                                                  <span class="text-yellow-400"><i class="fas fa-envelope"></i></span><p class="text-white ms-2">burger.info@gmail.com</p>
+                                                </div>
+                                        </div>
+                                        <div>
+                                                  <h1 class="text-2xl font-bold text-white">ADDRESS</h1>
+                                                  <div class="flex justify-center">
+                                                            <span class=" text-yellow-500"><i class="fas fa-map-marker-alt"></i></span><p class="text-white ms-2">Address goes here</p>
+                                                  </div>
+                                                  <div class="mt-5">
+                                                  
+                                                            <h1 class="text-2xl font-bold text-white">FOLLOW US</h1>
+                                                            <div class="flex text-yellow-500 justify-center space-x-4 mt-4">
+                                                                      <i class="fab fa-tiktok"></i>
+                                                                      <i class="fab fa-facebook-f"></i>
+                                                                      <i class="fab fa-instagram"></i>
+                                                            </div>
+                                                  </div>
+                                        </div>
+                              </div>
+                              <hr>
+                              <div class="text-center text-white text-2xl mt-4">
+                                        &copy;CopyRoght||2024 BURGER
+                              </div>
+                    </div>
+          </footer>
+
+          <script>
+                    const menubtn = document.getElementById('menubtn')
+                    const mobilebtn = document.getElementById('mobilebtn')
+                    menubtn.addEventListener('click', () => {
+                              mobilebtn.classList.toggle('hidden')
+                    })
+                    const moon = document.getElementById('moon')
+                    moon.addEventListener('click', () =>{
+                    console.log(moon);
+                    
+                    })
+                    
+                 
+          </script>
+</body>
+</html>
